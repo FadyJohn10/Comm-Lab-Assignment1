@@ -411,10 +411,10 @@ a.navbar-brand {
   background-image: url("../images/gallery1.JPG");
 }
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-  background-image: url("../images/gallery2.JPG");
+  background-image: url("../images/gallery2.jpg");
 }
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-  background-image: url("../images/gallery3.JPG");
+  background-image: url("../images/gallery3.jpg");
 }
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
   background-image: url("../images/gallery4.JPG");
