@@ -1,4 +1,23 @@
-/*global $, window, console*/
+function addTextToRandomPosition(text) {
+  for(let i = 0; i < 7; i++){
+    // Generate random coordinates within the viewport
+    const randomX = Math.floor(Math.random() * window.innerWidth);
+    const randomY = Math.floor(Math.random() * window.innerHeight);
+    const newTextElement = document.createElement('div');
+
+    // Set the position and content of the element
+    newTextElement.style.position = 'absolute';
+    newTextElement.style.left = randomX + 'px';
+    newTextElement.style.top = randomY + 'px';
+    newTextElement.textContent = text;
+
+    // Append the element to section1
+    document.getElementById("section1").appendChild(newTextElement);
+  }
+}
+addTextToRandomPosition("</>");
+addTextToRandomPosition("010110");
+
 
 $(function () {
 
